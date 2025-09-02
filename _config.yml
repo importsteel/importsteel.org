@@ -1,0 +1,31 @@
+# Site settings
+title: Steel
+description: A Python library for parsing binary data structures with type safety
+url: https://importsteel.org
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Navigation
+header_pages:
+  - getting-started.md
+  - features.md
+  - documentation.md
+  - community.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
