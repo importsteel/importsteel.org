@@ -1,4 +1,3 @@
-```python
 import steel
 from enum import StrEnum
 
@@ -12,7 +11,6 @@ class GifVersion(steel.StringEnum):
 
 class GIF(steel.Structure):
     tag = steel.FixedBytes(b'GIF')
-    version = GifVersion()
-    width = steel.Integer(size=2, endianness='<')
-    height = steel.Integer(size=2, endianness='<')
-```
+    version = steel.Bytes(size=3)
+    width = steel.Integer(size=2)
+    height = steel.Integer(size=2)

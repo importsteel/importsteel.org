@@ -2,7 +2,6 @@
 title: Steel
 description: A Python library for parsing binary data structures with type safety
 url: https://importsteel.org
-baseurl: ""
 
 # Build settings
 markdown: kramdown
@@ -16,10 +15,7 @@ collections:
 
 # Navigation
 header_pages:
-  - getting-started.md
-  - features.md
-  - documentation.md
-  - community.md
+  - index.md
 
 # Exclude from processing
 exclude:

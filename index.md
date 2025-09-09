@@ -1,34 +1,36 @@
 ---
 layout: default
-title: Steel - Powerful structures in Python
+title: Binary structures made simple
 ---
 
-# Steel
-
-Steel is a Python library designed for parsing binary data structures. The goal is to provide files and other binary structures just as accessible as text files and databases.
-
-## Key Features
-
-<div class="feature-grid">
-  <div class="feature">
-    <h3>🚀 Modern Python</h3>
-    <p>Built for Python 3.12+ with the latest language features and best practices.</p>
-  </div>
-  
-  <div class="feature">
-    <h3>🔒 Type Hinted</h3>
-    <p>Full type hints and generic support ensure compile-time safety and excellent IDE support.</p>
-  </div>
-  
-  <div class="feature">
-    <h3>📊 Rich Field Types</h3>
-    <p>Integers, floats, strings, enums, datetime, and custom field types out of the box.</p>
-  </div>
-  
-  <div class="feature">
-    <h3>🔧 Extensible</h3>
-    <p>Easy to extend with custom field types for domain-specific binary formats.</p>
-  </div>
+<div id="hero" class="container border border-dark-subtle rounded-4 text-bg-light">
+    <div class="row align-items-start">
+        <div class="col-4 gx-0 align-self-stretch">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="bi bi-check"></i>Structures are Python classes</li>
+                <li class="list-group-item"><i class="bi bi-check"></i>Field assigned as attributes</li>
+                <li class="list-group-item"><i class="bi bi-check"></i>Wide range of data types</li>
+                <li class="list-group-item"><i class="bi bi-check"></i>Rich validation support</li>
+                <li class="list-group-item"><i class="bi bi-check"></i>Read and write whole structures</li>
+                <li class="list-group-item"><i class="bi bi-check"></i>Type-hinted for strong IDE support</li>
+                <li class="list-group-item"><i class="bi bi-check"></i>Robust API for custom fields</li>
+                <li class="list-group-item coming-soon">Lazy access to file content</li>
+                <li class="list-group-item coming-soon">Nested structures</li>
+                <li class="list-group-item coming-soon">Lists of repeated fields</li>
+                <li class="list-group-item coming-soon">Manually-specified offsets</li>
+                <li class="list-group-item coming-soon">Skip reserved fields</li>
+                <li class="list-group-item coming-soon">Chunked data formats</li>
+                <li class="list-group-item coming-soon">Data compression</li>
+                <li class="list-group-item coming-soon">Data integrity fields</li>
+                <li class="list-group-item coming-soon">Structures as file-like objects</li>
+            </ul>
+        </div>
+        <div class="col-8 gx-0 align-self-stretch border-start rounded-end-4">
+{% highlight python %}
+{% include code/images.py %}
+{% endhighlight %}
+        </div>
+    </div>
 </div>
 
 ## Installation
@@ -37,25 +39,7 @@ Steel is a Python library designed for parsing binary data structures. The goal 
 pip install steel
 ```
 
-## Examples
-
-### GIF
-
-{% capture gif %}{% include examples/gif.md title='GIF' %}{% endcapture %}
-{{ gif | markdownify }}
-
-### PNG
-
-{% capture png %}{% include examples/png.md title='PNG' %}{% endcapture %}
-{{ png | markdownify }}
-
-### BMP
-
-{% capture bmp %}{% include examples/bmp.md title='BMP' %}{% endcapture %}
-{{ bmp | markdownify }}
-
 ## Resources
 
-- [**Documentation**]({{ site.docs_url }}) - Complete API reference and guides
+- [**Documentation**]({{ site.docs_url }}) - User guide and API reference
 - [**GitHub**]({{ site.github.repository_url }}) - Source code and issue tracking
-
