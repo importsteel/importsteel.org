@@ -18,10 +18,12 @@ title: Binary structures made simple
                 <li class="list-group-item coming-soon">Nested structures</li>
                 <li class="list-group-item coming-soon">Lists of repeated fields</li>
                 <li class="list-group-item coming-soon">Manually-specified offsets</li>
-                <li class="list-group-item coming-soon">Skip reserved fields</li>
                 <li class="list-group-item coming-soon">Chunked data formats</li>
+                <li class="list-group-item coming-soon">Fields made of bits</li>
                 <li class="list-group-item coming-soon">Data compression</li>
                 <li class="list-group-item coming-soon">Data integrity fields</li>
+                <li class="list-group-item coming-soon">Conditional branching</li>
+                <li class="list-group-item coming-soon">Skip reserved fields</li>
                 <li class="list-group-item coming-soon">Structures as file-like objects</li>
             </ul>
         </div>
