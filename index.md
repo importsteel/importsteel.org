@@ -41,5 +41,5 @@ pip install steel
 
 ## Resources
 
-- [**Documentation**]({{ site.docs_url }}) - User guide and API reference
-- [**GitHub**]({{ site.github.repository_url }}) - Source code and issue tracking
+- [**Documentation**](https://docs.importsteel.org/) - User guide and API reference
+- [**GitHub**](https://github.com/importsteel/steel) - Source code and issue tracking

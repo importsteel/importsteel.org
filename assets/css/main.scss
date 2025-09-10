@@ -54,7 +54,20 @@ pre code {
   padding-left: 28px;
 }
 
-#hero figure, pre, code {
+#hero figure, #hero pre, #hero code {
   background: none;
   margin: 0;
+  line-height: 140%;
+}
+
+#hero .col-8 {
+  background: #1d2331;
+}
+
+#hero figure {
+  padding: 1rem;
+}
+
+.coming-soon {
+  color: #888;
 }

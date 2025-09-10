@@ -12,7 +12,6 @@ This directory contains the Jekyll website for Steel hosted at [importsteel.org]
 ### Setup
 
 ```bash
-cd www
 bundle install
 ```
 
