@@ -7,13 +7,13 @@ title: Binary structures made simple
     <div class="row align-items-start">
         <div class="col-4 gx-0 align-self-stretch">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i class="bi bi-check"></i>Structures are Python classes</li>
-                <li class="list-group-item"><i class="bi bi-check"></i>Field assigned as attributes</li>
-                <li class="list-group-item"><i class="bi bi-check"></i>Wide range of data types</li>
-                <li class="list-group-item"><i class="bi bi-check"></i>Rich validation support</li>
-                <li class="list-group-item"><i class="bi bi-check"></i>Read and write whole structures</li>
-                <li class="list-group-item"><i class="bi bi-check"></i>Type-hinted for strong IDE support</li>
-                <li class="list-group-item"><i class="bi bi-check"></i>Robust API for custom fields</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Structures are Python classes</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Field assigned as attributes</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Wide range of data types</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Rich validation support</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Read and write whole structures</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Type-hinted for strong IDE support</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Robust API for custom fields</li>
                 <li class="list-group-item coming-soon">Lazy access to file content</li>
                 <li class="list-group-item coming-soon">Nested structures</li>
                 <li class="list-group-item coming-soon">Lists of repeated fields</li>

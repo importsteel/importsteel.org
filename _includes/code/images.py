@@ -13,7 +13,7 @@ class PNG(steel.Structure):
     width = steel.Integer(size=4)
     height = steel.Integer(size=4)
 
-class BMP(steel.Structure, endianness='<'):
+class BMP(steel.Structure):
     signature = steel.FixedBytes(b'BM')
     filesize = steel.Integer(size=4)
     _reserved = steel.Bytes(size=4)
