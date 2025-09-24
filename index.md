@@ -14,7 +14,7 @@ title: Binary structures made simple
                 <li class="list-group-item"><i class="bi bi-check-lg"></i>Read and write whole structures</li>
                 <li class="list-group-item"><i class="bi bi-check-lg"></i>Type-hinted for strong IDE support</li>
                 <li class="list-group-item"><i class="bi bi-check-lg"></i>Robust API for custom fields</li>
-                <li class="list-group-item coming-soon">Lazy access to file content</li>
+                <li class="list-group-item"><i class="bi bi-check-lg"></i>Lazy access to file content</li>
                 <li class="list-group-item coming-soon">Nested structures</li>
                 <li class="list-group-item coming-soon">Lists of repeated fields</li>
                 <li class="list-group-item coming-soon">Manually-specified offsets</li>
