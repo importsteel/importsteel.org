@@ -16,6 +16,7 @@ title: Binary structures made simple
                 <li class="list-group-item"><i class="bi bi-check-lg"></i>Robust API for custom fields</li>
                 <li class="list-group-item"><i class="bi bi-check-lg"></i>Lazy access to file content</li>
                 <li class="list-group-item"><i class="bi bi-check-lg"></i>Nested structures</li>
+                <li class="list-group-item coming-soon">Fields as configuration for other fields</li>
                 <li class="list-group-item coming-soon">Lists of repeated fields</li>
                 <li class="list-group-item coming-soon">Manually-specified offsets</li>
                 <li class="list-group-item coming-soon">Chunked data formats</li>
@@ -24,7 +25,8 @@ title: Binary structures made simple
                 <li class="list-group-item coming-soon">Data integrity fields</li>
                 <li class="list-group-item coming-soon">Conditional branching</li>
                 <li class="list-group-item coming-soon">Skip reserved fields</li>
-                <li class="list-group-item coming-soon">Structures as file-like objects</li>
+                <!-- <li class="list-group-item coming-soon">Structures as file-like objects</li> -->
+                <!-- <li class="list-group-item coming-soon">Import/export Kaitai Struct</li> -->
             </ul>
         </div>
         <div class="col-8 gx-0 align-self-stretch border-start rounded-end-4">
